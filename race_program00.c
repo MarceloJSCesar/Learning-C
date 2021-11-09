@@ -6,8 +6,6 @@ int main() {
     scanf("%d", &place);
     if(place == 1){
         printf("Voce ganhou 10 pontos");
-    }else if(place == 1){
-        printf("Voce ganhou 10 pontos");
     }else if(place == 2){
         printf("Voce ganhou 8 pontos");
     }else if(place == 3){
