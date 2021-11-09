@@ -2,7 +2,7 @@
 
 int main() {
     int place;
-    printf("Em que lugar ficaste? ");
+    printf("Em que lugar ficou? ");
     scanf("%d", &place);
     if(place == 1){
         printf("Voce ganhou 10 pontos");
