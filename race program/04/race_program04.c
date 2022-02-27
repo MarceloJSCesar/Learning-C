@@ -1,25 +1,29 @@
 #include <stdio.h>
 
 int calcPoints(int place, int points){
-    if(place <= 2 && place > 0){
+    if(place <= 3){
         points = 12 - 2 * place;
-        printf("Ficaste com: %d points", points);
+        printf("You got: %d points", points);
     }else{
-        points = place <= 8 && place > 0 ? 9 - place : 0;
-        printf("Ficaste com: %d points", points);
+        points = 9 - place;
+        printf("You got: %d points", points);
     }
 
    return 0;
 }
+void noPoints(int points){
+    points = 0;
+    printf("You got %d point", points);
+} 
 
 int main(void){
     int place, points;
-    printf("Em que lugar ficaste? ");
+    printf("Which place did you ended up? ");
     scanf("%d", &place);
-    if(place <= 2 && place > 0){
+    if(place > 0 && place <= 8){
         calcPoints(place,points);
     }else{
-        calcPoints(place,points);
+        noPoints(points);
     }
 
     return 0;

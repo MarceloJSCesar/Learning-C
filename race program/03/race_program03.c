@@ -2,7 +2,7 @@
 
 int main(void){
     int place, points;
-    printf("Em que lugar ficaste? ");
+    printf("Which place did you ended up? ");
     scanf("%d", &place);
     /*
         Implementing with grafic logical 
