@@ -2,7 +2,7 @@
 
 int main(void){
     int place, points;
-    printf("Em que lugar ficou? ");
+    printf("Which place did you ended up? ");
     scanf("%d", &place);
     switch(place){
         case 1:
@@ -34,11 +34,11 @@ int main(void){
         break;
     }
     if(place > 1){
-        printf("Ficaste com %d points", points);
+        printf("You got %d points", points);
     }else if(place == 1){
-        printf("Congratulations !!! Ficaste com %d points", points);
+        printf("Congratulations !!! You got %d point", points);
     }else{
-        printf("Ficaste com %d point", points);
+        printf("You got %d point", points);
     }
     return 0;
 }
