@@ -2,26 +2,26 @@
 
 int main() {
     int place;
-    printf("Em que lugar ficou? ");
+    printf("Which place did you ended up? ");
     scanf("%d", &place);
     if(place == 1){
-        printf("Voce ganhou 10 pontos");
+        printf("You got 10 points");
     }else if(place == 2){
-        printf("Voce ganhou 8 pontos");
+        printf("You got 8 points");
     }else if(place == 3){
-        printf("Voce ganhou 6 pontos");
+        printf("You got 6 points");
     }else if(place == 4){
-        printf("Voce ganhou 5 pontos");
+        printf("You got 5 points");
     }else if(place == 5){
-        printf("Voce ganhou 4 pontos");
+        printf("You got 4 points");
     }else if(place == 6){
-        printf("Voce ganhou 3 pontos");
+        printf("You got 3 points");
     }else if(place == 7){
-        printf("Voce ganhou 2 pontos");
+        printf("You got 2 points");
     }else if(place == 8){
-        printf("Voce ganhou 1 ponto");
+        printf("You got 1 points");
     }else {
-        printf("Voce ganhou não ganhou nenhum ponto");
+        printf("You got no points");
     }
     return 0;
 }
