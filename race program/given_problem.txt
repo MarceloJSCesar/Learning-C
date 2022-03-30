@@ -1,0 +1,11 @@
+The problem it is to write a program to help me give points to the racers according to the position upon which they ended up in.
+== For position == 
+1 = 10points;
+2 = 8points;
+3 = 6points;
+4 = 5points;
+5 = 4points;
+6 = 3points;
+7 = 2points;
+8 = 1point;
+place > 8 = 0point;
