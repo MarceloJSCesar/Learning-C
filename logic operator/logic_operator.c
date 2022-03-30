@@ -13,5 +13,6 @@ int main(void){
 };
 
 int xor(register int a, register int b){
+    // any number different that zero is true and zero is false
     return(a || b) && !(a && b);
 };
